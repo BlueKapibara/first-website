@@ -1,0 +1,64 @@
+/* style */
+
+/* tło */
+body {
+  background-image: url("multimedia/obrazy/3.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+  font-family: "Biome", sans-serif;
+}
+
+/* pliki czcionek */
+@font-face {
+  font-family: "Colonna";
+  src: url("fonts/COLONNA.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "Teko";
+    src: url("fonts/TEKO.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "Biome";
+    src: url("fonts/Biome.ttf") format("truetype");
+}
+
+/* czcionki */
+h1 {
+  font:
+    60px "Colonna",
+    sans-serif;
+  color: #09936c;
+  text-shadow: 2px 2px 2px #0720a1;
+  text-align: center;
+}
+
+.subtitlc {
+  font:
+    20px "Teko",
+    sans-serif;
+  color: #099391;
+}
+
+/*linki*/
+a {
+  font-family: "Teko", sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  color: #095393;
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #a10707;
+  text-decoration: none;
+  transform: scale(1.2);
+}
+
+a:active {
+  color: rgb(225, 122, 4);
+}
