@@ -66,3 +66,19 @@ a:hover {
 a:active {
   color: rgb(225, 122, 4);
 }
+
+a.small {
+  font-size: 20px;
+}
+
+a.small:hover {
+  color: #a10707;
+  text-decoration: none;
+  transform: scale(1);
+}
+
+a.normal:hover {
+  color: #a10707;
+  text-decoration: none;
+  transform: scale(1);
+}
